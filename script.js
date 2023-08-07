@@ -8,9 +8,18 @@ $(document).ready(function () {
       var value = $(this).siblings(".description").val();
       var name = $(this).parent().attr("id");
       console.log(this);
+
       //This code should use the id in the containing time-block as a key to save the user input in local storage.
       // save in local storage
       localStorage.setItem(name, value);
+
+      //Temporary notification to show that text was saved to local storage.
+      $('.notification').addClass('show');
+
+      //Timer removes notification after 8 seconds
+      setTimeout(function () {
+        $('.notification').removeClass('show');
+      }, 8000);
     });
   });
 
@@ -27,7 +36,7 @@ $(document).ready(function () {
   //
 
   // Current hour from day.js
-  dayjs().hour();
+  var presentTime = dayjs().hour();
   // TODO: Add code to get any user input that was saved in localStorage and set
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
