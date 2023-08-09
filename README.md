@@ -15,8 +15,8 @@ Workday Scheduler
 >
 > * A website that WHEN I refresh the page, THEN the saved events persist.
 
-## Screenshot ()
-![Screenshot of portfolio website.](/images/Portfolio-Site-Screenshot.png)
-
 ## Link to deployed website 
 This site was built using [GitHub Pages](https://favioa.github.io/Faviolous/).
+
+## Link to GitHub Repo 
+This site was built using [GitHub Pages](https://github.com/FavioA/no-more-dawdling).
