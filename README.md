@@ -20,3 +20,5 @@ This site was built using [GitHub Pages](https://favioa.github.io/no-more-dawdli
 
 ## Link to GitHub Repo 
 This site was built using [GitHub Pages](https://github.com/FavioA/no-more-dawdling).
+
+<img width="1405" alt="Screenshot 2023-08-09 at 2 12 19 AM" src="https://github.com/FavioA/no-more-dawdling/assets/134189396/42d1f05a-53bb-48a0-b897-50836d5d36ab">
